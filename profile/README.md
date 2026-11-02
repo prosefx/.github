@@ -1,4 +1,4 @@
-# prosemirrorfx
+# prosefx
 
 ProseMirror-style rich text editing for JavaFX applications, kept in one place: the shared base modules and the generic components built on them.
 
@@ -10,14 +10,14 @@ Applications keep their own editor components. What turns out to be useful to mo
 
 ## Modules
 
-- [core](https://github.com/prosemirrorfx/core): the document model, schema, commands and input rules, with no JavaFX dependency.
-- [markdown](https://github.com/prosemirrorfx/markdown): markdown and clipboard HTML in and out, with a round trip that writes an unedited file back byte for byte.
-- [view](https://github.com/prosemirrorfx/view): the JavaFX view of a document, drawn natively with no WebView, and an embedding class for markdown notes.
-- [demo](https://github.com/prosemirrorfx/demo): a small application showing the editor on its own.
+- [core](https://github.com/prosefx/core): the document model, schema, commands and input rules, with no JavaFX dependency.
+- [markdown](https://github.com/prosefx/markdown): markdown and clipboard HTML in and out, with a round trip that writes an unedited file back byte for byte.
+- [view](https://github.com/prosefx/view): the JavaFX view of a document, drawn natively with no WebView, and an embedding class for markdown notes.
+- [demo](https://github.com/prosefx/demo): a small application showing the editor on its own.
 
 Planned, not started: format, a light, block-addressed document format for people and AI to edit together.
 
-Maven coordinates are `io.github.prosemirrorfx:prosemirrorfx-<module>`, and Java packages are `prosemirrorfx.<module>`. Snapshots come from Central's snapshot repository, `https://central.sonatype.com/repository/maven-snapshots/`.
+Maven coordinates are `io.github.prosefx:prosefx-<module>`, and Java packages are `prosefx.<module>`. Snapshots come from Central's snapshot repository, `https://central.sonatype.com/repository/maven-snapshots/`.
 
 ## Built on
 
